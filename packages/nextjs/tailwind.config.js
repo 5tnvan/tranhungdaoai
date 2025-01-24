@@ -5,84 +5,62 @@ module.exports = {
   plugins: [require("daisyui")],
   darkTheme: "dark",
   darkMode: ["selector", "[data-theme='dark']"],
-  // DaisyUI theme colors
   daisyui: {
     themes: [
       {
         light: {
-          primary: "#93BBFB",
-          "primary-content": "#212638",
-          secondary: "#DAE8FF",
-          "secondary-content": "#212638",
-          accent: "#93BBFB",
-          "accent-content": "#212638",
-          neutral: "#212638",
-          "neutral-content": "#ffffff",
-          "base-100": "#ffffff",
-          "base-200": "#f4f8ff",
-          "base-300": "#DAE8FF",
-          "base-content": "#212638",
-          info: "#93BBFB",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
-
+          primary: "#FF7700", // Bright orange
+          "primary-content": "#1C1C1C", // Deep black for text
+          secondary: "#FFB84D", // Soft, glowing orange
+          "secondary-content": "#1C1C1C", // Deep black for text
+          accent: "#FF5400", // Vibrant reddish-orange
+          "accent-content": "#FFFFFF", // Crisp white
+          neutral: "#FFFFFF", // Pure white
+          "neutral-content": "#1C1C1C", // Deep black for contrast
+          "base-100": "#FFF6E5", // Soft, warm white
+          "base-200": "#FFE4C2", // Light peachy tone
+          "base-300": "#FFD6A7", // Muted orange-peach
+          "base-content": "#1C1C1C", // Deep black
+          info: "#FF9100", // Bright orange-gold
+          success: "#23D160", // Vibrant green
+          warning: "#FF8C00", // Strong orange
+          error: "#FF2D1A", // Bold red-orange
           "--rounded-btn": "9999rem",
-
-          ".tooltip": {
-            "--tooltip-tail": "6px",
-          },
-          ".link": {
-            textUnderlineOffset: "2px",
-          },
-          ".link:hover": {
-            opacity: "80%",
-          },
+          ".tooltip": { "--tooltip-tail": "6px" },
+          ".link": { textUnderlineOffset: "2px" },
+          ".link:hover": { opacity: "80%" },
         },
       },
       {
         dark: {
-          primary: "#212638",
-          "primary-content": "#F9FBFF",
-          secondary: "#323f61",
-          "secondary-content": "#F9FBFF",
-          accent: "#4969A6",
-          "accent-content": "#F9FBFF",
-          neutral: "#F9FBFF",
-          "neutral-content": "#385183",
-          "base-100": "#385183",
-          "base-200": "#2A3655",
-          "base-300": "#212638",
-          "base-content": "#F9FBFF",
-          info: "#385183",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
-
+          primary: "#FF8800", // Bright orange
+          "primary-content": "#1C1C1C", // Deep black for buttons
+          secondary: "#FFAE33", // Glowing orange
+          "secondary-content": "#1C1C1C", // Deep black for contrast
+          accent: "#FF5400", // Intense reddish-orange
+          "accent-content": "#FFFFFF", // Crisp white for contrast
+          neutral: "#1C1C1C", // Deep black
+          "neutral-content": "#FFFFFF", // Pure white for text
+          "base-100": "#1A1A1A", // Rich black
+          "base-200": "#292929", // Slightly muted black
+          "base-300": "#3A3A3A", // Soft dark gray
+          "base-content": "#FFFFFF", // Crisp white for contrast
+          info: "#FF9100", // Bright orange-gold
+          success: "#22C55E", // Vibrant green
+          warning: "#FF7F11", // Intense orange
+          error: "#FF2E00", // Vivid red-orange
           "--rounded-btn": "9999rem",
-
-          ".tooltip": {
-            "--tooltip-tail": "6px",
-            "--tooltip-color": "oklch(var(--p))",
-          },
-          ".link": {
-            textUnderlineOffset: "2px",
-          },
-          ".link:hover": {
-            opacity: "80%",
-          },
+          ".tooltip": { "--tooltip-tail": "6px", "--tooltip-color": "oklch(var(--p))" },
+          ".link": { textUnderlineOffset: "2px" },
+          ".link:hover": { opacity: "80%" },
         },
       },
     ],
   },
   theme: {
     extend: {
-      boxShadow: {
-        center: "0 0 12px -2px rgb(0 0 0 / 0.05)",
-      },
-      animation: {
-        "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      },
+      boxShadow: { center: "0 0 12px -2px rgb(0 0 0 / 0.1)" },
+      animation: { "pulse-fast": "pulse 0.8s cubic-bezier(0.4, 0, 0.6, 1) infinite" },
     },
   },
 };
