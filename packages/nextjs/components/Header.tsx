@@ -63,10 +63,10 @@ export const Header = () => {
     <div className="sticky lg:static top-0 navbar bg-base-100 min-h-0 flex-shrink-0 justify-between z-20 shadow-md shadow-secondary px-0 sm:px-2">
       <div className="avatar online">
         <div className="w-12 rounded-full">
-          <img src="/images/5.webp" />
+          <img src="/images/8.webp" />
         </div>
       </div>
-      <div className="font-bold">Trần Hưng Đạo AI: House of Dragon</div>
+      <div className="font-bold">General Trần Hưng Đạo AI: House of Dragon</div>
       <span></span>
     </div>
   );

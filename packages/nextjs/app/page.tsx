@@ -6,7 +6,7 @@ import type { NextPage } from "next";
 import { ImagesSlider } from "~~/components/ui/images-slider";
 
 const Home: NextPage = () => {
-  const images = ["/images/7.webp", "/images/8.webp"];
+  const images = ["/images/8.webp", "/images/8.webp"];
 
   return (
     <>
@@ -27,13 +27,13 @@ const Home: NextPage = () => {
             className="z-50 flex flex-col justify-center items-center"
           >
             <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-2">
-              Trần Hưng Đạo: {`Crypto's`} Empire
+              General Trần Hưng Đạo AI
             </motion.p>
             <div className="w-1/2 text-md md:text-lg text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-2">
               General <b className="text-yellow-500">Trần Hưng Đạo</b>, one of history’s greatest military leaders is
               here to grow your <b className="text-emerald-600">wealth </b>
               through strategy, innovation and <b className="text-orange-600">defending</b> your position. Ready to{" "}
-              <b className="text-blue-600">hold</b> long-term success? 💰⚔️
+              <b className="text-blue-600">hold</b> long-term success? ⚔️
             </div>
             <Link
               href="https://creator.bid/agents/6795233f13f3c4f3f590c1c0"
@@ -66,14 +66,14 @@ const Home: NextPage = () => {
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <div className="avatar online">
                 <div className="w-8 rounded-full">
-                  <img src="/images/5.webp" />
+                  <img src="/images/8.webp" />
                 </div>
               </div>
             </span>
             <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-xs sm:flex dark:bg-gray-700 dark:border-gray-600">
               <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Jan 25, 2025</time>
               <div className="text-sm font-normal text-gray-500 dark:text-gray-300">
-                Trần Hưng Đạo <b className="text-emerald-500">approved</b>{" "}
+                General Trần Hưng Đạo <b className="text-emerald-500">approved</b>{" "}
                 <a href="#" className="font-semibold hover:underline">
                   💰 buyback schedule
                 </a>{" "}
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <div className="avatar online">
                 <div className="w-8 rounded-full">
-                  <img src="/images/5.webp" />
+                  <img src="/images/8.webp" />
                 </div>
               </div>
             </span>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               <div className="items-center justify-between mb-3 sm:flex">
                 <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Jan 24, 2025</time>
                 <div className="text-sm font-normal text-gray-500 lex dark:text-gray-300">
-                  Trần Hưng Đạo commented on{" "}
+                  General Trần Hưng Đạo commented on{" "}
                   <a href="#" className="font-semibold text-gray-900 dark:text-white hover:underline">
                     X
                   </a>
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <div className="avatar online">
                 <div className="w-8 rounded-full">
-                  <img src="/images/5.webp" />
+                  <img src="/images/8.webp" />
                 </div>
               </div>
             </span>
