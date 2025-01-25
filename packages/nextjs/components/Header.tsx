@@ -66,7 +66,7 @@ export const Header = () => {
           <img src="/images/5.webp" />
         </div>
       </div>
-      <div className="font-bold">Trần Hưng Đạo AI</div>
+      <div className="font-bold">Trần Hưng Đạo AI: House of Dragon</div>
       <span></span>
     </div>
   );
