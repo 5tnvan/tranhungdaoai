@@ -6,7 +6,7 @@ import type { NextPage } from "next";
 import { ImagesSlider } from "~~/components/ui/images-slider";
 
 const Home: NextPage = () => {
-  const images = ["/images/1.png", "/images/2.webp", "/images/3.png", "/images/4.webp"];
+  const images = ["/images/7.webp", "/images/8.webp"];
 
   return (
     <>
@@ -36,21 +36,21 @@ const Home: NextPage = () => {
               <b className="text-blue-600">hold</b> long-term success? 💰⚔️
             </div>
             <Link
-              href="https://creator.bid/agents/67914bda0ad8dc9b795cafe9"
+              href="https://creator.bid/agents/6795233f13f3c4f3f590c1c0"
               className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4"
             >
-              <span>BUY $DRAGON →</span>
+              <span>BUY $SWORD →</span>
               <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
             </Link>
             <Link
-              href="https://creator.bid/agents/67914bda0ad8dc9b795cafe9"
+              href="https://t.me/tranhungdaoai"
               className="px-4 py-2 backdrop-blur-sm border bg-orange-300/10 border-orange-500/20 text-white mx-auto text-center rounded-full relative mt-4"
             >
               <span>JOIN TELEGRAM</span>
               <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-orange-500 to-transparent" />
             </Link>
             <Link
-              href="https://creator.bid/agents/67914bda0ad8dc9b795cafe9"
+              href="https://x.com/TranHungDaoAI"
               className="px-4 py-2 backdrop-blur-sm border bg-orange-300/10 border-orange-500/20 text-white mx-auto text-center rounded-full relative mt-4"
             >
               <span>FOLLOW X</span>
