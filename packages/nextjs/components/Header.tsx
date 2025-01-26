@@ -66,7 +66,9 @@ export const Header = () => {
           <img src="/images/8.webp" />
         </div>
       </div>
-      <div className="font-bold">General Trần Hưng Đạo AI: $SWORD</div>
+      <Link href="/" className="font-bold">
+        General Trần Hưng Đạo AI: $SWORD
+      </Link>
       <span></span>
     </div>
   );

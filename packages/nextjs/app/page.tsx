@@ -6,7 +6,7 @@ import type { NextPage } from "next";
 import { ImagesSlider } from "~~/components/ui/images-slider";
 
 const Home: NextPage = () => {
-  const images = ["/images/8.webp", "/images/8.webp"];
+  const images = ["/images/7.webp", "/images/8.webp"];
 
   return (
     <>
@@ -62,6 +62,23 @@ const Home: NextPage = () => {
       <div className="flex flex-col items-center justify-center p-20">
         <h1 className="text-2xl font-bold p-4"> 🎯 Roadmap: The Conquest of Q1 2025</h1>
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
+          <li className="mb-10 ms-6">
+            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <div className="avatar online">
+                <div className="w-8 rounded-full">
+                  <img src="/images/8.webp" />
+                </div>
+              </div>
+            </span>
+            <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-xs sm:flex dark:bg-gray-700 dark:border-gray-600">
+              <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Jan 26, 2025</time>
+              <div className="text-base">
+                <Link href="/sword">
+                  🚀 <span className="badge">$SWORD</span> Relaunch Roadmap Announcement →
+                </Link>
+              </div>
+            </div>
+          </li>
           <li className="mb-10 ms-6">
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <div className="avatar online">
