@@ -59,7 +59,7 @@ const Sword: NextPage = () => {
           </motion.div>
         </ImagesSlider>
       </div>
-      <div className="flex flex-col items-center justify-center p-20">
+      <div className="flex flex-col items-center justify-center p-5 lg:p-20">
         <h1 className="text-2xl font-bold p-4">
           🎯 Roadmap: <span className="badge text-lg">$SWORD</span> Relaunch Q1 2025
         </h1>

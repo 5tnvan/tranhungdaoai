@@ -59,7 +59,7 @@ const Home: NextPage = () => {
           </motion.div>
         </ImagesSlider>
       </div>
-      <div className="flex flex-col items-center justify-center p-20">
+      <div className="flex flex-col items-center justify-center p-5 lg:p-20">
         <h1 className="text-2xl font-bold p-4"> 🎯 Roadmap: The Conquest of Q1 2025</h1>
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
           <li className="mb-10 ms-6">
