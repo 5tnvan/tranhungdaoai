@@ -5,8 +5,8 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 export const metadata = getMetadata({
-  title: "Tran Hung Dao AI",
-  description: "$DRAGON",
+  title: "General Tran Hung Dao AI",
+  description: "$SWORD",
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
